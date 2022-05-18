@@ -16,7 +16,7 @@ class Game
          @solution.push(COLORS[num])
          x += 1
         end
-        puts @solution
+        #puts @solution
     end
     def display_current
         if @player.guess.length == 1
